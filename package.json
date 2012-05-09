@@ -1,6 +1,6 @@
 {
   "name": "coberturaJS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":  "code coverage tool for node.js",
   "keywords":     ["cobertura", "coverage", "test"],
   "author": "Paulo Lopes",
