@@ -1,0 +1,16 @@
+{
+  "author": "Paulo Lopes",
+  "name": "coberturaJS",
+  "version": "0.0.1",
+  "bin": {
+    "coberturajs": "./bin/coberturajs"
+  },
+  "main" : "./lib",
+  "dependencies": {
+    "esprima": "0.9.9",
+    "escodegen": "0.0.2"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
