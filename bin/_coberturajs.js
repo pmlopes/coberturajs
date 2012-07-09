@@ -81,7 +81,7 @@ function mkdir(p, mode, cb) {
   } else {
     var ps = path.normalize(p).split('/');
 
-    path.exists(p, function (exists) {
+    fs.exists(p, function (exists) {
       if (exists) {
         return cb(null);
       }
